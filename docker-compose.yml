@@ -13,7 +13,7 @@ services:
       - redis
 
   dnmonster:
-    image: amouat/dnmonster:1.0
+    image: iberrozpe/dnmonster:latest
   
   redis:
-    image: redis:3.0
+    image: iberrozpe/redis:latest
