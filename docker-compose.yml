@@ -1,6 +1,7 @@
 services:
   identidock:
     build: .
+    image: iberrozpe/identidockaws
     ports:
       - "5000:5000"
     environment:
